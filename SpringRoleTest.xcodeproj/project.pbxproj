@@ -8,20 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		0707431E1F162B3D00CDC4D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0707431D1F162B3D00CDC4D1 /* AppDelegate.swift */; };
-		070743201F162B3E00CDC4D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0707431F1F162B3E00CDC4D1 /* ViewController.swift */; };
-		070743231F162B3E00CDC4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070743211F162B3E00CDC4D1 /* Main.storyboard */; };
 		070743251F162B3E00CDC4D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070743241F162B3E00CDC4D1 /* Assets.xcassets */; };
 		070743281F162B3E00CDC4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070743261F162B3E00CDC4D1 /* LaunchScreen.storyboard */; };
+		0707435A1F16700100CDC4D1 /* SRCategoriesListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070743561F16700100CDC4D1 /* SRCategoriesListController.swift */; };
+		0707435B1F16700100CDC4D1 /* SRCategoriesListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070743571F16700100CDC4D1 /* SRCategoriesListController.xib */; };
+		0707435C1F16700100CDC4D1 /* SRSubCategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070743581F16700100CDC4D1 /* SRSubCategoriesController.swift */; };
+		0707435D1F16700100CDC4D1 /* SRSubCategoriesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070743591F16700100CDC4D1 /* SRSubCategoriesController.xib */; };
+		070743621F16701200CDC4D1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0707435F1F16701200CDC4D1 /* LoadingView.swift */; };
+		070743631F16701200CDC4D1 /* SRCategoriesDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070743601F16701200CDC4D1 /* SRCategoriesDataCenter.swift */; };
+		070743641F16701200CDC4D1 /* UIImageView+ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070743611F16701200CDC4D1 /* UIImageView+ImageLoader.swift */; };
+		070743671F16702100CDC4D1 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070743661F16702100CDC4D1 /* BaseController.swift */; };
+		0707436E1F16707E00CDC4D1 /* SRCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0707436A1F16707E00CDC4D1 /* SRCategoriesCell.swift */; };
+		0707436F1F16707E00CDC4D1 /* SRCategoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0707436B1F16707E00CDC4D1 /* SRCategoriesCell.xib */; };
+		070743701F16707E00CDC4D1 /* SRSubCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0707436C1F16707E00CDC4D1 /* SRSubCategoriesCell.swift */; };
+		070743711F16707E00CDC4D1 /* SRSubCategoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0707436D1F16707E00CDC4D1 /* SRSubCategoriesCell.xib */; };
+		070743751F16709C00CDC4D1 /* SRCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070743731F16709C00CDC4D1 /* SRCategories.swift */; };
+		070743761F16709C00CDC4D1 /* SRSubcategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070743741F16709C00CDC4D1 /* SRSubcategories.swift */; };
+		07C0770617303DF89A688E2E /* Pods_SpringRoleTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18572F16ECD19CE591D94548 /* Pods_SpringRoleTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0707431A1F162B3D00CDC4D1 /* SpringRoleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringRoleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0707431D1F162B3D00CDC4D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0707431F1F162B3E00CDC4D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		070743221F162B3E00CDC4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		070743241F162B3E00CDC4D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		070743271F162B3E00CDC4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		070743291F162B3E00CDC4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070743561F16700100CDC4D1 /* SRCategoriesListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRCategoriesListController.swift; path = Modules/News/SRCategoriesListController.swift; sourceTree = "<group>"; };
+		070743571F16700100CDC4D1 /* SRCategoriesListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRCategoriesListController.xib; path = Modules/News/SRCategoriesListController.xib; sourceTree = "<group>"; };
+		070743581F16700100CDC4D1 /* SRSubCategoriesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRSubCategoriesController.swift; path = Modules/News/SRSubCategoriesController.swift; sourceTree = "<group>"; };
+		070743591F16700100CDC4D1 /* SRSubCategoriesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRSubCategoriesController.xib; path = Modules/News/SRSubCategoriesController.xib; sourceTree = "<group>"; };
+		0707435F1F16701200CDC4D1 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Helper/LoadingView.swift; sourceTree = "<group>"; };
+		070743601F16701200CDC4D1 /* SRCategoriesDataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRCategoriesDataCenter.swift; path = Helper/SRCategoriesDataCenter.swift; sourceTree = "<group>"; };
+		070743611F16701200CDC4D1 /* UIImageView+ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+ImageLoader.swift"; path = "Helper/UIImageView+ImageLoader.swift"; sourceTree = "<group>"; };
+		070743661F16702100CDC4D1 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseController.swift; path = Base/BaseController.swift; sourceTree = "<group>"; };
+		0707436A1F16707E00CDC4D1 /* SRCategoriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRCategoriesCell.swift; path = Modules/News/CustomCells/SRCategoriesCell.swift; sourceTree = "<group>"; };
+		0707436B1F16707E00CDC4D1 /* SRCategoriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRCategoriesCell.xib; path = Modules/News/CustomCells/SRCategoriesCell.xib; sourceTree = "<group>"; };
+		0707436C1F16707E00CDC4D1 /* SRSubCategoriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRSubCategoriesCell.swift; path = Modules/News/CustomCells/SRSubCategoriesCell.swift; sourceTree = "<group>"; };
+		0707436D1F16707E00CDC4D1 /* SRSubCategoriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRSubCategoriesCell.xib; path = Modules/News/CustomCells/SRSubCategoriesCell.xib; sourceTree = "<group>"; };
+		070743731F16709C00CDC4D1 /* SRCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRCategories.swift; path = Model/SRCategories.swift; sourceTree = "<group>"; };
+		070743741F16709C00CDC4D1 /* SRSubcategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRSubcategories.swift; path = Model/SRSubcategories.swift; sourceTree = "<group>"; };
+		18572F16ECD19CE591D94548 /* Pods_SpringRoleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpringRoleTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57207F653B174EF7D9298C38 /* Pods-SpringRoleTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringRoleTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpringRoleTest/Pods-SpringRoleTest.release.xcconfig"; sourceTree = "<group>"; };
+		E3A781ED3847FE56A9ADCC74 /* Pods-SpringRoleTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringRoleTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpringRoleTest/Pods-SpringRoleTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C0770617303DF89A688E2E /* Pods_SpringRoleTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +69,8 @@
 			children = (
 				0707431C1F162B3D00CDC4D1 /* SpringRoleTest */,
 				0707431B1F162B3D00CDC4D1 /* Products */,
+				4794ABCBD41474FD0A6899F5 /* Pods */,
+				5D4B621867F99145D120ED09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +86,90 @@
 			isa = PBXGroup;
 			children = (
 				0707431D1F162B3D00CDC4D1 /* AppDelegate.swift */,
-				0707431F1F162B3E00CDC4D1 /* ViewController.swift */,
-				070743211F162B3E00CDC4D1 /* Main.storyboard */,
 				070743241F162B3E00CDC4D1 /* Assets.xcassets */,
 				070743261F162B3E00CDC4D1 /* LaunchScreen.storyboard */,
 				070743291F162B3E00CDC4D1 /* Info.plist */,
+				070743721F16709000CDC4D1 /* Model */,
+				070743651F16701600CDC4D1 /* Base */,
+				0707435E1F16700700CDC4D1 /* Helper */,
+				070743541F166FDC00CDC4D1 /* Modules */,
 			);
 			path = SpringRoleTest;
+			sourceTree = "<group>";
+		};
+		070743541F166FDC00CDC4D1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				070743551F166FE200CDC4D1 /* News */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		070743551F166FE200CDC4D1 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				070743561F16700100CDC4D1 /* SRCategoriesListController.swift */,
+				070743571F16700100CDC4D1 /* SRCategoriesListController.xib */,
+				070743581F16700100CDC4D1 /* SRSubCategoriesController.swift */,
+				070743591F16700100CDC4D1 /* SRSubCategoriesController.xib */,
+				070743691F16706C00CDC4D1 /* CustomCells */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		0707435E1F16700700CDC4D1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0707435F1F16701200CDC4D1 /* LoadingView.swift */,
+				070743601F16701200CDC4D1 /* SRCategoriesDataCenter.swift */,
+				070743611F16701200CDC4D1 /* UIImageView+ImageLoader.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		070743651F16701600CDC4D1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				070743661F16702100CDC4D1 /* BaseController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		070743691F16706C00CDC4D1 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				0707436A1F16707E00CDC4D1 /* SRCategoriesCell.swift */,
+				0707436B1F16707E00CDC4D1 /* SRCategoriesCell.xib */,
+				0707436C1F16707E00CDC4D1 /* SRSubCategoriesCell.swift */,
+				0707436D1F16707E00CDC4D1 /* SRSubCategoriesCell.xib */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		070743721F16709000CDC4D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				070743731F16709C00CDC4D1 /* SRCategories.swift */,
+				070743741F16709C00CDC4D1 /* SRSubcategories.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4794ABCBD41474FD0A6899F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3A781ED3847FE56A9ADCC74 /* Pods-SpringRoleTest.debug.xcconfig */,
+				57207F653B174EF7D9298C38 /* Pods-SpringRoleTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D4B621867F99145D120ED09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18572F16ECD19CE591D94548 /* Pods_SpringRoleTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0707432C1F162B3E00CDC4D1 /* Build configuration list for PBXNativeTarget "SpringRoleTest" */;
 			buildPhases = (
+				7C5B22A5805654DA82BBEE93 /* [CP] Check Pods Manifest.lock */,
 				070743161F162B3D00CDC4D1 /* Sources */,
 				070743171F162B3D00CDC4D1 /* Frameworks */,
 				070743181F162B3D00CDC4D1 /* Resources */,
+				4128A84294A8D0BC6147C4C9 /* [CP] Embed Pods Frameworks */,
+				9C70E129F38CD80D6A22622A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,34 +236,86 @@
 			buildActionMask = 2147483647;
 			files = (
 				070743281F162B3E00CDC4D1 /* LaunchScreen.storyboard in Resources */,
+				070743711F16707E00CDC4D1 /* SRSubCategoriesCell.xib in Resources */,
+				0707435B1F16700100CDC4D1 /* SRCategoriesListController.xib in Resources */,
 				070743251F162B3E00CDC4D1 /* Assets.xcassets in Resources */,
-				070743231F162B3E00CDC4D1 /* Main.storyboard in Resources */,
+				0707436F1F16707E00CDC4D1 /* SRCategoriesCell.xib in Resources */,
+				0707435D1F16700100CDC4D1 /* SRSubCategoriesController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4128A84294A8D0BC6147C4C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpringRoleTest/Pods-SpringRoleTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C5B22A5805654DA82BBEE93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C70E129F38CD80D6A22622A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpringRoleTest/Pods-SpringRoleTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		070743161F162B3D00CDC4D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070743201F162B3E00CDC4D1 /* ViewController.swift in Sources */,
+				0707435C1F16700100CDC4D1 /* SRSubCategoriesController.swift in Sources */,
+				070743621F16701200CDC4D1 /* LoadingView.swift in Sources */,
+				070743671F16702100CDC4D1 /* BaseController.swift in Sources */,
+				0707435A1F16700100CDC4D1 /* SRCategoriesListController.swift in Sources */,
+				0707436E1F16707E00CDC4D1 /* SRCategoriesCell.swift in Sources */,
 				0707431E1F162B3D00CDC4D1 /* AppDelegate.swift in Sources */,
+				070743631F16701200CDC4D1 /* SRCategoriesDataCenter.swift in Sources */,
+				070743701F16707E00CDC4D1 /* SRSubCategoriesCell.swift in Sources */,
+				070743761F16709C00CDC4D1 /* SRSubcategories.swift in Sources */,
+				070743751F16709C00CDC4D1 /* SRCategories.swift in Sources */,
+				070743641F16701200CDC4D1 /* UIImageView+ImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		070743211F162B3E00CDC4D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				070743221F162B3E00CDC4D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		070743261F162B3E00CDC4D1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,6 +422,7 @@
 		};
 		0707432D1F162B3E00CDC4D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A781ED3847FE56A9ADCC74 /* Pods-SpringRoleTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 35P9S7STBV;
@@ -272,6 +436,7 @@
 		};
 		0707432E1F162B3E00CDC4D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57207F653B174EF7D9298C38 /* Pods-SpringRoleTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 35P9S7STBV;
@@ -302,6 +467,7 @@
 				0707432E1F162B3E00CDC4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
